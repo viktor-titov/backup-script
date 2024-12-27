@@ -1,0 +1,7 @@
+{
+    "output": "path to output",
+    "sources": [
+        "source path 1",
+        "source path 2"
+    ]
+}
