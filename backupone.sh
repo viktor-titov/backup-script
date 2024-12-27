@@ -107,7 +107,7 @@ archive() {
         return 0
     fi
 
-    msg "$(tf "done: $1", "green")"
+    msg "$(tf "done: $1" "green")"
     return 0
 }
 

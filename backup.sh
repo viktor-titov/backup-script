@@ -100,7 +100,7 @@ for source in $sources; do
     fi
 done
 
-msg "$(tf "Пути для архивирования: \n$sources", "yellow")"
+msg "$(tf "Пути для архивирования: \n$sources" "yellow")"
 
 archive() {
     path="$output/$(date +"%Y.%m.%d")-$2-backup.tar.gz"
@@ -115,7 +115,7 @@ archive() {
         return 0
     fi
 
-    msg "$(tf "done: $1", "green")"
+    msg "$(tf "done: $1" "green")"
     return 0
 }
 
